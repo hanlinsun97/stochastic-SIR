@@ -2,7 +2,7 @@
 
 Code for critical branching process on stochastic SIR model with power-law infective duration. 
 
-Link to the paper: https://iopscience.iop.org/article/10.1088/1751-8121/ac65c3/pdf
+Link to the paper: https://iopscience.iop.org/article/10.1088/1751-8121/ac65c3
 
 This repository contains:
 
