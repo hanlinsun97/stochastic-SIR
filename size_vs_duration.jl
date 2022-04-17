@@ -21,7 +21,6 @@
 #    
 ####################################################################################
 
-using Revise
 using PoissonRandom
 using DelimitedFiles
 using StatsBase
@@ -101,10 +100,9 @@ function main()
     end
 
     data_record = [T_record, Z_record]
-    open("size_vs_duration_22_9999_t.txt", "w") do io
+    open("data.txt", "w") do io
         writedlm(io, data_record)
     end
-    return nothing
 end
 
 @time main()
